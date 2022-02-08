@@ -6,6 +6,10 @@ import NavBar from "../components/NavBar";
 import Header from "../components/Header";
 import Service from "../components/Service";
 import Content from "../components/Content";
+import ContentTwo from "../components/ContentTwo";
+import ContentThere from "../components/ContentThere";
+import Footer from "../components/Footer";
+import FooterTwo from "../components/FooterTwo";
 export default function Home() {
   return (
     <div>
@@ -14,7 +18,10 @@ export default function Home() {
       <Header />
       <Service />
       <Content />
-      <p className="py-24">sdksds</p>
+      <ContentTwo />
+      <ContentThere />
+      <Footer />
+      <FooterTwo />
     </div>
   );
 }
