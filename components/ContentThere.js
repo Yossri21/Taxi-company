@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Image1 from "../public/capture01.png";
+
 const ContentThere = () => {
   return (
     <div className="flex flex-col space-y-12 items-center justify-center  w-full py-12">
@@ -8,7 +11,7 @@ const ContentThere = () => {
         </p>
       </div>
       <div className="">
-        <img src="/capture01.png" alt="" />
+        <Image src={Image1} alt="Picture of the author" />
       </div>
     </div>
   );

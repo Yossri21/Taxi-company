@@ -1,13 +1,16 @@
 import { FaHashtag } from "react-icons/fa";
+import Image from "next/image";
+import Image1 from "../public/image_01-5.jpg";
+import Image2 from "../public/image_04-5.jpg";
 const Contents = () => {
   return (
     <div className="container mx-auto py-24  space-y-20 w-full">
-      <div className=" flex flex-row justify-center px-12">
+      <div className=" lg:flex lg:flex-row justify-center px-12">
         <div>
-          <img src="/image_01-5.jpg" />
+          <Image src={Image1} alt="Picture of the author" />
         </div>
         <div className="mt-12">
-          <img src="/image_04-5.jpg" />
+          <Image src={Image2} alt="Picture of the author" />
         </div>
       </div>
       <div className="px-12 flex flex-col justify-center items-center text-center space-y-6">
@@ -19,7 +22,7 @@ const Contents = () => {
         </p>
         <p className="text-xl text-gray-500">ANNA CRIADO - CHAIRMAN & CEO</p>
       </div>
-      <div className="grid grid-cols-2 px-12">
+      <div className="lg:grid lg:grid-cols-2 px-12">
         <div className="col-span-1 space-y-6 py-12 text-center px-8">
           <p className="text-3xl font-medium text-gray-600">
             Exceptional Customer Service

@@ -8,7 +8,7 @@ const ContentTwo = () => {
             See What We Can Do for You
           </p>
         </div>
-        <div className="container px-12  grid grid-cols-4 grid-rows-2 gap-4 w-full">
+        <div className="container px-12  lg:grid lg:grid-cols-4 lg:grid-rows-2 gap-4  lg:space-y-0 space-y-2 w-full">
           <div
             className="col-span-2 row-span-1 bg-no-repeat bg-cover bg-center  h-64"
             style={{
