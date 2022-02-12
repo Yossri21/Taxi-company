@@ -23,7 +23,7 @@ const Header = () => {
           <div
             className="h-screen bg-no-repeat bg-cover bg-center"
             style={{
-              backgroundImage: `url(/slider_01.jpg)`,
+              backgroundImage: `url(/img01.jpg)`,
             }}
           >
             <div className="h-screen bg-black bg-opacity-10 ">
@@ -46,7 +46,7 @@ const Header = () => {
           <div
             className="h-screen bg-no-repeat bg-cover bg-center"
             style={{
-              backgroundImage: `url(/slider_02.jpg)`,
+              backgroundImage: `url(/img02.jpg)`,
             }}
           >
             <div className="h-screen bg-black bg-opacity-10 ">
@@ -69,7 +69,7 @@ const Header = () => {
           <div
             className="h-screen bg-no-repeat bg-cover bg-center"
             style={{
-              backgroundImage: `url(/slider_03.jpg)`,
+              backgroundImage: `url(/img03.jpg)`,
             }}
           >
             <div className="h-screen bg-black bg-opacity-10 ">

@@ -1,17 +1,17 @@
 import Header from "../components/Header";
-import Service from "../components/Service";
-import Content from "../components/Content";
-import ContentTwo from "../components/ContentTwo";
-import ContentThere from "../components/ContentThere";
+import SectionService from "../components/SectionService";
+import SectionOneHomePage from "../components/SectionOneHomePage";
+import SectionTwoHomePage from "../components/SectionTwoHomePage";
+import SectionThereHomePage from "../components/SectionThereHomePage";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <Service />
-      <Content />
-      <ContentTwo />
-      <ContentThere />
+      <SectionService />
+      <SectionOneHomePage />
+      <SectionTwoHomePage />
+      <SectionThereHomePage />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { FaHashtag } from "react-icons/fa";
 import Image from "next/image";
-import Image1 from "../public/image_01-5.jpg";
-import Image2 from "../public/image_04-5.jpg";
+import Image1 from "../public/image_01-6.jpg";
+import Image2 from "../public/image_01-5.jpg";
 const Contents = () => {
   return (
     <div className="container mx-auto py-24  space-y-20 w-full">
@@ -20,7 +20,7 @@ const Contents = () => {
           <br />
           have a fully satisfied experience.
         </p>
-        <p className="text-xl text-gray-500">ANNA CRIADO - CHAIRMAN & CEO</p>
+        <p className="text-xl text-gray-500">ANDRO Tomas - CHAIRMAN CEO</p>
       </div>
       <div className="lg:grid lg:grid-cols-2 px-12">
         <div className="col-span-1 space-y-6 py-12 text-center px-8">
