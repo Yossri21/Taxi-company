@@ -1,8 +1,8 @@
 import Header from "../components/header";
 import SectionService from "../components/sectionservice";
-import SectionOneHomePage from "../components/sectiononehomepage";
-import SectionTwoHomePage from "../components/sectiontwohomepage";
-import SectionThereHomePage from "../components/sectiontherehomepage";
+import SectionOneHomePage from "../components/Contents";
+import SectionTwoHomePage from "../components/ContentTwo";
+import SectionThereHomePage from "../components/ContentThere";
 
 export default function Home() {
   return (

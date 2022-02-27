@@ -1,8 +1,8 @@
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
-import Meta from "./meta";
-export const Layout = ({ children }) => {
+import Meta from "./Meta";
+export const layout = ({ children }) => {
   return (
     <>
       <Meta />
@@ -14,4 +14,4 @@ export const Layout = ({ children }) => {
     </>
   );
 };
-export default Layout;
+export default layout;
