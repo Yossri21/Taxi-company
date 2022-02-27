@@ -23,9 +23,5 @@ Free NextJs Template for taxi driver made with **NextJs**   and **Tailwindcss**.
 
 Distributed under the MIT License. See  [LICENSE](https:google.com)  for more information.
 
-## Contact
-Email Us: [wael.hassine0@gmail.com](mailto:wael.hassine0@gmail.com)
-
-
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
