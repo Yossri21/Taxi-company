@@ -1,11 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Header from "../components/Header";
+import SectionService from "../components/SectionService";
+import SectionOneHomePage from "../components/SectionOneHomePage";
+import SectionTwoHomePage from "../components/SectionTwoHomePage";
+import SectionThereHomePage from "../components/SectionThereHomePage";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline text-fuchsia-400">
-    Hello world!
-  </h1>
-  )
+    <div>
+      <Header />
+      <SectionService />
+      <SectionOneHomePage />
+      <SectionTwoHomePage />
+      <SectionThereHomePage />
+    </div>
+  );
 }
