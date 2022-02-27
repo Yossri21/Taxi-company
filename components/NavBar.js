@@ -7,7 +7,9 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
-const Navbar = () => {
+import Image from "next/image";
+import Logo from "../public/logo.png";
+const navbar = () => {
   return (
     <div>
       <div className="bg-gray-100 ">
@@ -37,7 +39,7 @@ const Navbar = () => {
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/">
             <a href="#" className="flex">
-              <img src="/logo.png" />
+              <Image src={Logo} alt="Logo" />
             </a>
           </Link>
           <div className="flex md:order-2">
@@ -134,4 +136,4 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar;
+export default navbar;

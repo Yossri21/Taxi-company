@@ -1,12 +1,12 @@
-import NavBar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "./navbar";
+import Footer from "./footer";
 
-import Meta from "./Meta";
+import Meta from "./meta";
 export const Layout = ({ children }) => {
   return (
     <>
       <Meta />
-      <NavBar />
+      <Navbar />
       <div>
         <main>{children}</main>
       </div>
