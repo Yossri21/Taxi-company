@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import Image from "next/image";
 import Logo from "../public/logo.png";
-const navbar = () => {
+const Navbar = () => {
   return (
     <div>
       <div className="bg-gray-100 ">
@@ -136,4 +136,4 @@ const navbar = () => {
     </div>
   );
 };
-export default navbar;
+export default Navbar;

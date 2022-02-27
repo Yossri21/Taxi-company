@@ -1,5 +1,5 @@
-import Header from "../components/header";
-import SectionService from "../components/sectionservice";
+import Header from "../components/Header";
+import SectionService from "../components/Sectionservice";
 import SectionOneHomePage from "../components/Contents";
 import SectionTwoHomePage from "../components/ContentTwo";
 import SectionThereHomePage from "../components/ContentThere";

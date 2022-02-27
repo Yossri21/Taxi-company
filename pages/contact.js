@@ -1,4 +1,4 @@
-import MapSection from "../components/map";
+import MapSection from "../components/Map";
 
 const location = {
   address: "1600 Amphitheatre Parkway, Mountain View, california.",

@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper";
-const header = () => {
+const Header = () => {
   return (
     <div className=" h-screen w-full">
       <Swiper
@@ -92,4 +92,4 @@ const header = () => {
     </div>
   );
 };
-export default header;
+export default Header;
