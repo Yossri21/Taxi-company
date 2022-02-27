@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 import Meta from "./Meta";
-export const layout = ({ children }) => {
+export const Layout = ({ children }) => {
   return (
     <>
       <Meta />
@@ -14,4 +14,4 @@ export const layout = ({ children }) => {
     </>
   );
 };
-export default layout;
+export default Layout;
