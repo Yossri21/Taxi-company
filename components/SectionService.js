@@ -1,5 +1,5 @@
 import { FaEnvira, FaCodepen, FaBusAlt, FaDrawPolygon } from "react-icons/fa";
-const Service = () => {
+const Sectionservice = () => {
   return (
     <div className="container mx-auto lg:grid lg:grid-cols-8 gap-6 py-24 px-12 items-center place-content-center justify-center">
       <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center">
@@ -35,4 +35,4 @@ const Service = () => {
     </div>
   );
 };
-export default Service;
+export default Sectionservice;
