@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Nav from "./Nav";
 import Footer from "./Footer";
 
 import Meta from "./Meta";
@@ -6,7 +6,7 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Meta />
-      <Navbar />
+      <Nav />
       <div>
         <main>{children}</main>
       </div>
